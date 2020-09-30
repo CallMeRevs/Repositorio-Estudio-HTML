@@ -1,0 +1,33 @@
+body{ /* Selector por tag */
+    background-color: black;
+}
+h1{
+    color: white;
+}
+p{
+    color: brown;
+}
+p b{ /* Herencia en CSS. Selecciona todos los "b" hijos de "p" */
+    color: cyan;
+}
+#primerParrafo{ /* Selector por id */
+    color: red;
+}
+#segundoParrafo{
+    color: blue;
+}
+#tercerParrafo{
+    color: green;
+}
+.blanco{ /* Selector por clase */
+    color: white;
+}
+.blanco b{ /* Se puede ir cascadeando hacia adentro en los selectores */
+    color: red; 
+}
+.grande{
+    font-size: 30px;
+}
+.principal{
+    font-family: monospace;
+}
